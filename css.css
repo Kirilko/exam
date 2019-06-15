@@ -4,6 +4,20 @@ body, html {
 	font-family: Arial, sans-serif;
 	color: #222;
 }
+.clients{
+	background: lightgray;
+	height:60%;
+	min-width: 300px
+}
+@media (max-height:  600px){
+	.clients{
+		height: 100%;
+	}
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color:red;
+}
 .text{
 	text-align: center;
 }
@@ -26,13 +40,10 @@ body, html {
 	margin-top:0.3em;
 	margin-bottom:0.2em;
 }
-.carousel-border {
-   border:2px solid #fc0;
-}
-.bg-logo{
+.navbar-brand{
 	max-width: 300px;
 }
-.logo img {
+.navbar-brand img {
 	width:300px;
 
 }
@@ -69,79 +80,40 @@ body, html {
 		font-size:em;
 	}
 }
-.jumbotron{
-	padding: 1em;
-	border-radius: 0;
-	width:70%;
-	margin: 0 auto;
-	margin-top:20px;
-}
+
 .padding{
 	padding-bottom: 2em;
-}
-.alert{
-	width:75%;
-	margin: 0 auto;
-	padding-top: 2em;
-}
-.alert hr{
-	border-top: 2px solid #f0f0f0;
-	width:95%;
-	margin-top:0.3em;
-	margin-bottom:1em;
-}
-.fa-code{
-	color:#e54d26;
-}
-.fa-bold{
-	color:#563d7c;
-}
-.fa-css3{
-	color:#2163af;
-}
-.fa-code, .fa-bold, .fa-css3 {
-	font-size: 4em;
-	margin:1em;
-}
-#fixed {
-	height:400px;
-	border-top:  4px solid #f0f0f0;
-	border-bottom: 4px solid #f0f0f0;
-	background: url(https://wallpapers.moviemania.io/phone/movie/299534/89d58e/avengers-endgame-phone-wallpaper.jpg?w=1536&h=2732) no-repeat center center fixed;
-	background-blend-mode: multiply;
-	background-color: lightblue;
-	background-size:cover;
-	-o-background-size:cover;
-	-moz-background-size:cover;
-	-webkit-background-size:cover; 
-}
-#gifsBtn{
-	margin-bottom: 20px;
-}
-#gifs img {
-	max-width:100%;
-	max-height: 200px;
-	margin-bottom:20px;
-}
-@media(min-width:750px){
-	.display-4{
-		font-size:1.5em;
-	}
-}
-.social a{
-	font-size:4em;
-	padding:10px;
-}
-
-.fa-facebook,.fa-vk,.fa-twitter{
-	color:white;
 }
 .fab{
 	font-size:2em;
 }
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-instagram{
+	color:#517fa4;
+}
+.fa-twitter{
+	color:#00aced;
+}
+.fa-youtube{
+	color:#bb0000;
+}
+.fa-vk{
+	color:#597da3;
+}
 footer{
-	background-color:#3f3f3f;
+	background-color:#e4f2ff;
 	padding-top: 50px;
-	border-top: 4px solid silver;
-	color: white;
+	border-top: 20px solid #0068ba	;
+	color: black;
+}
+footer a, footer span{
+	color:#7f8082;
+}
+footer a:hover{
+	color:#7f8082;
+}
+.col{
+	margin-left: 20px;
 }
