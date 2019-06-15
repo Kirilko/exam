@@ -124,3 +124,6 @@ footer a:hover{
 	padding: 15px;
 	background: #f3f3f3;
 }
+#col1, #col2, #col3{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
