@@ -1,9 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
 body, html {
 	width: 100%;
 	height: 100%;
-	font-family: 'Poppins', sans-serif;
+	font-family: Arial, sans-serif;
 	color: #222;
+}
+.text{
+	text-align: center;
+}
+.col-yel{
+	border: 10px solid yellow;
+	padding: 30px;
+	text-align: center;
+}
+.news, .actions{
+	border: 3px solid silver;
+	padding: 20px;
+}
+.news b, .actions b{
+	padding-left: 15px;
+}
+.main-news a, .actions a {
+	color: #5e646d;
+}
+.news hr{
+	margin-top:0.3em;
+	margin-bottom:0.2em;
 }
 .carousel-border {
    border:2px solid #fc0;
@@ -27,7 +48,7 @@ body, html {
 .carousel-inner img{
 	height:100%;
 }
-@media (min-width: 1100px){
+@media (min-width: 600px){
 	.carousel-inner img{
 		width: 100%;
 	}
@@ -37,10 +58,15 @@ body, html {
 	top:50%;
 	transform: translateY(-80%);
 	text-shadow: 1px 1px 10px #000;
+	text-align: left;
 }
+.display-2{
+	text-align: right;
+}
+
 @media (max-width: 450px){
 	.carousel-caption .display-2{
-		font-size:3em;
+		font-size:em;
 	}
 }
 .jumbotron{
@@ -106,21 +132,12 @@ body, html {
 	font-size:4em;
 	padding:10px;
 }
-.fa-facebook{
-	color: #3b5998;
+
+.fa-facebook,.fa-vk,.fa-twitter{
+	color:white;
 }
-.fa-instagram{
-	color:#517fa4;
-}
-.fa-twitter{
-	color:#00aced;
-}
-.fa-youtube{
-	color:#bb0000;
-}
-.fa-google-plus-g{color:#dd4b39;}
-.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-google-plus-g:hover{
-	color: #ccc;
+.fab{
+	font-size:2em;
 }
 footer{
 	background-color:#3f3f3f;

@@ -8,32 +8,13 @@
 </head>
 <body>
 	<!-- Шапка -->
-	<header class="container-fluid bg-light">
-		<div>
-			<div class="row">
-				<div class="col-md-4 offset-1">
-					<div class="bg-logo">
-						<a class="logo"><img src="mpu.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<form>
-						<div class="form" >
-							<div class="input">
-								<input type="text" class="form-control" placeholder="Введите домен или слово">
-							</div>
-							<div class="buttons">
-								<button class="btn btn-success"></button>
-								<button class="btn btn-secondary"></button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</header>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 		<div class="container-fluid">
+			<div class="col-md-4 offset-1">
+					<div class="bg-logo">
+						<a class="logo"><img src="top_sh.png" alt=""></a>
+					</div>
+				</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -84,22 +65,26 @@
 			<li data-target="#slides" data-slide-to="0" class="active"></li>
 			<li data-target="#slides" data-slide-to="1"></li>
 			<li data-target="#slides" data-slide-to="2"></li>
-			<li data-target="#slides" data-slide-to="3"></li>
 		</ul>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
+			<div class="carousel-item active ">
 				<img src="slide1.jpg">
-				<div class="carousel-caption">
+				<div class="carousel-caption ">
 					<div class="row">
-						<div class="col">
-							<h1>Домены .INK, .WIKI и .DESIGN от 799 рублей</h1>
+						<div class="col carousel-left">
+							<h1 >Домены .INK, .WIKI и .DESIGN от 799 рублей</h1>
+							<br>
 							<h3>Веб-адреса для творческих и образовательных проеков по сниженным ценам</h3>
+							<br>	
 							<button type="button" class="btn btn-success btn-lg">Подробнее</button>
+											
+								
 						</div>
-						<div class="col">
-							<h1>Домены .INK, .WIKI и .DESIGN от 799 рублей</h1>
-							<h3>Веб-адреса для творческих и образовательных проеков по сниженным ценам</h3>
-							<button type="button" class="btn btn-success btn-lg">Подробнее</button>
+						<div class="col" class="display-2">
+							<h3>Поделиться</h3>
+							<a href="#"><i class="fab fa-vk"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
 						</div>
 					</div>
 				</div>
@@ -108,16 +93,120 @@
 				<img src="slide2.jpg">
 			</div>
 			<div class="carousel-item">
-				<img src="slide3.jpg">
-			</div>
-			<div class="carousel-item">
 				<img src="slide4.jpg">
 			</div>
 
 		</div>
 	</div>
+	<!-- Карточки -->
+	<div class="container-fluid padding">
+		<div class="row padding justify-content-around">
+			<div class="col-md-3 ">
+				<div class="card text-light" style="background-color: #505054;">
+					<img src="card1.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h4 class="card-title">Хостинг и серверы</h4>
+						<p class="card-text">Надёжный классический и VIP хостинг, VPS с SSD+HDD и SSD носителями, Dedicated. Домены в подарок.</p>
+						<a href="#" class="btn btn-success">Подробнее</a>
+						<a href="#" class="text-decoration-none"style="margin-left:10px; color:white; " for="card2">от <span style="font-weight: bold;font-size: 25px">91</span> руб/мес</a>
+
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-3">
+				<div class="card text-light" style="background-color: #505054;">
+					<img src="card2.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h4 class="card-title"><b>SSL-сертификаты</b></h4>
+						<p class="card-text">Гарантия статуса сайта и безопасности передаваемых данных. Незаменимо для e-commerce.</p>
+						<a href="#" class="btn btn-success">Подробнее</a>
+						<a href="#" class="text-decoration-none"style="margin-left:10px; color:white; " for="card2">от <span style="font-weight: bold;font-size: 25px">1099</span> руб.</a>
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-3">
+				<div class="card text-light" style="background-color: #505054;">
+					<img src="card3.jpg" class="card-img-top" alt="">
+					<div class="card-body">
+						<h4 class="card-title"><b>Автоматическое SEO-продвижение</b></h4>
+						<p class="card-text">Управление ав­то­ма­ти­зи­ро­ван­ным про­дви­же­ни­ем в поисковых системах.</p>
+						<a href="#" class="btn btn-success">Подробнее</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- Новости/Мероприятия -->
+	<div class="container padding">
+		<div class="row ">
+			<div class="col-7 offset-1">
+				<div class="news main-news">
+					<h2>Новости</h2>
+					<b style="background: lightgray;">13 июня 2019 г.</b><br><br>
+					<div>
+						<a href="#" >Скидка 50% на услугу "Администрирование сервера"</a>
+						<hr>
+						<a href="#" >Сэкономьте до 42% на SSL-сертификате до 20 июня</a>
+					</div>
+					<br>
+					<b style="background: lightgray;">11 июня 2019 г.</b><br><br>
+					<a href="#" >Только до 14 июня: домены .RU, .РФ, .SU, .МОСКВА и .MOSCOW от 177 рублей</a><br><br>
+					<b style="background: lightgray;">10 июня 2019 г.</b><br><br>
+					<a href="#" >Бесплатное скрытие персональных данных при регистрации международных доменнов</a>
+				</div>
+			</div>
+			<div class="col-3" style="height: 100%">
+				<div class="actions">
+					<h2>Мероприятия</h2>
+					<b style="background: lightgray;">19 июня, Москва</b><br>
+					<a href="#" >Скидка на участие в конференции Social Media Moscow</a><br><br><br>
+					<b style="background: lightgray;">21-22 июня, Москва</b><br>
+					<a href="#" >DevConf - конференция для профессиональных веб-разработчиков</a><br><br><br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<h1 class="text-center padding">Почему мы? Это просто</h1>
+	<!-- преимущества -->
+	<div class="container-fluid">
+		<div class="row justify-content-around ">
+			<div class="col-md-2">
+				<div class="col-yel">
+					<h1>№1</h1>
+				</div>
+				<p class="text">регистратор и хостинг - провайдер в России</p>
+			</div>
+			<div class="col-md-2">
+				<div class="col-yel">
+					<h1>31 млн</h1>
+				</div>
+				<p class="text">оказанных услуг</p>
+				
+			</div>
+			<div class="col-md-2">
+				<div class="col-yel">
+					<h1>3 млн</h1>
+				</div>
+				<p class="text">доменов на обслуживании</p>
+			</div>
+			<div class="col-md-2">
+				<div class="col-yel">
+					<h1>1.9 млн</h1>
+				</div>
+				<p class="text">более 1.9 млн клиентов</p>
+			</div>
+			<div class="col-md-2">
+				<div class="col-yel">
+					<h1>24/7</h1>
+				</div>
+				<p class="text">профессиональная поддержка</p>
+			</div>
+		</div>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/9e277fca15.js"></script>	
 </body>
 </html>
