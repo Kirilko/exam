@@ -117,3 +117,10 @@ footer a:hover{
 .col{
 	margin-left: 20px;
 }
+.bank:hover{
+	transform:scale(1.1);
+}
+.under-nav,.under-foot{
+	padding: 15px;
+	background: #f3f3f3;
+}
